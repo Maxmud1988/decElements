@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Создаём вертикальное меню</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <section class="vertical-menu">
+      <div class="container">
+         <h2 class="section-title">
+            Создаём вертикальное меню</h2>
+         <div class="vertical-menu-wrapp">
+            <ul class="main-menu">
+               <h3 class="section-title">Вертикальное мену</h3>
+               <li><a href="#">О компании</a></li>
+               <li class="active"><a href="#">Услуги</a></li>
+               <li><a href="#">Сотрудники</a></li>
+               <li><a href="#">Контакты</a></li>
+            </ul>
+            <ul class="menu">
+               <h3 class="section-title">Испытания вертикальное мену</h3>
+               <li><a href="#">Курсы</a></li>
+               <li class="active"><a href="#">Интенсивы</a></li>
+               <li><a href="#">Профессия</a></li>
+               <li><a href="#">Подписка</a></li>
+               <li><a href="#">Профиль</a></li>
+            </ul>
+            <ul class="multilevel-menu">
+               <h3 class="section-title">Многоуровневое вертикальное меню</h3>
+               <li><a href="#company">О компании</a></li>
+               <li class="active">
+                  <a href="#services">Услуги</a>
+                  <ul>
+                     <li><a href="#">Продвижение</a></li>
+                     <li><a href="#">Контекст</a>
+                        <ul>
+                           <li><a href="#ya">Яндекс</a></li>
+                           <li><a href="#go">Google</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li><a href="#team">Сотрудники</a></li>
+               <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <ul class="multilevel">
+               <h3 class="section-title">Испитания: многоуровневое вертикальное меню</h3>
+               <li class="active">
+                  <a href="/courses">Курсы</a>
+                  <ul>
+                     <li><a href="/courses/4">Знакомство</a></li>
+                     <li><a href="/courses/42">Селекторы</a></li>
+                     <li><a href="/courses/45">Позиционирование</a> </li>
+                  </ul>
+               </li>
+               <li><a href="/intensive">Интенсивы</a></li>
+               <li><a href="/profession/frontender">Профессия</a></li>
+               <li><a href="/pricing">Подписка</a></li>
+            </ul>
+         </div>
+
+   </section>
+   <section class="horizontal-menu-section">
+      <div class="container">
+         <h2 class="section-title">Горизонтальное меню</h2>
+         <div class="horizontal-menu-wrap">
+            <ul class="horizontal-menu">
+               <li><a href="#company">О компании</a></li>
+               <li><a href="#services">Услуги</a></li>
+               <li><a href="#team">Сотрудники</a></li>
+               <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <ul class="horizontal">
+               <li><a href="/courses">Курсы</a></li>
+               <li><a href="/intensive">Интенсивы</a></li>
+               <li class="active"><a href="/profession/frontender">Профессия</a></li>
+               <li><a href="/pricing">Подписка</a></li>
+            </ul>
+         </div>
+      </div>
+
+   </section>
+   <section class="dropdown-submenu-section">
+      <div class="container">
+         <h2 class="section-title">Вертикальное меню с выпадающим подменю
+         </h2>
+         <div class="dropdown-submenu-section-wrap">
+            <ul class="dropdown-menu">
+               <h3 class="section-title">Вертикальное меню с выпадающим подменю</h3>
+               <li><a href="#company">О компании</a></li>
+               <li><a href="#services">Услуги</a>
+                  <ul class="sub-menu">
+                     <li><a href="#1">Разработка</a></li>
+                     <li><a href="#2">Продвижение</a></li>
+                     <li><a href="#3">Контекст</a></li>
+                  </ul>
+               </li>
+               <li><a href="#team">Сотрудники</a></li>
+               <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <ul class="dropdown">
+               <h3 class="section-title">Испитания: Вертикальное меню с выпадающим подменю</h3>
+               <li>
+                  <a href="/intensive">Интенсивы</a>
+               </li>
+               <li class="open">
+                  <a href="/courses">Курсы</a>
+                  <ul class="submenu">
+                     <li>
+                        <a href="/courses/4">Знакомство</a>
+                     </li>
+                     <li>
+                        <a href="/courses/42">Селекторы</a>
+                     </li>
+                     <li>
+                        <a href="/courses/45">Позиционирование</a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="/profession/frontender">Профессия</a>
+               </li>
+               <li>
+                  <a href="/pricing">Подписка</a>
+               </li>
+               <li>
+                  <a href="/profile">Профиль</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </section>
+   <section class="decorative-elements">
+      <div class="container">
+         <h2 class="section-title">декоративные элементы</h2>
+         <div class="decorative-elements-wrapp">
+            <div class="share">
+               <h3 class="section-title">Социальные кнопки</h3>
+               <b>Соцсети</b>
+               <a class="social social-vk" href="#"></a>
+               <a class="social social-fb" href="#"></a>
+               <a class="social social-tw" href="#"></a>
+            </div>
+            <div class="paginator">
+               <h3 class="section-title">Переключатель страниц</h3>
+               <a class="prev disabled" href="#prev">Назад</a>
+               <a class="current" href="#1">1</a>
+               <span>&hellip;</span>
+               <a href="#3">3</a>
+               <a class="next" href="#next">Вперёд</a>
+            </div>
+            <div class="card">
+               <h3 class="section-title">Испытание: карточка курса</h3>
+               <h2 class="card__title">Курс <span>«Фоны»</span> </h2>
+               <p class="card__description">
+                  Учимся использовать фоновые цвета и изображения, разбираемся с форматами, знакомимся с приёмами
+                  создания декоративных эффектов.
+               </p>
+               <div class="card__share share-link">
+                  <a href="#" class="share-link__social share-link__social-fb"></a>
+                  <a href="#" class="share-link__social share-link__social-tw"></a>
+                  <a href="#" class="share-link__social share-link__social-google"></a>
+               </div>
+            </div>
+            <div class="contacts">
+               <h3 class="section-title">Контакты</h3>
+               <div class="contacts-title">Наш адрес</div>
+               <div class="contacts-item">
+                  <div class="contacts-icon icon-location"></div>
+                  Россия, Санкт-Петербург,<br>
+                  Невский пр., дом 1
+               </div>
+               <div class="contacts-item">
+                  <div class="contacts-icon icon-phone"></div>
+                  +7 (921) 555-33-22
+               </div>
+               <div class="contacts-item ">
+                  <div class="contacts-icon icon-email"></div>
+                  <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+               </div>
+            </div>
+            <div class="comment-wrapp">
+               <h3 class="section-title">Коментарии</h3>
+               <div class="comment">
+                  <div class="comment-avatar"></div>
+                  <div class="comment-author">Дима Дивов</div>
+                  <div class="comment-text">
+                     Неплохой курс. Нравится собирать и применять теорию на практике.
+                     <div class="comment-date">16.09.2013</div>
+                  </div>
+                  <a href="#reply" title="Ответить" class="comment-reply"></a>
+               </div>
+               <div class="comment">
+                  <div class="comment-avatar"></div>
+                  <div class="comment-author">Степан Спанов</div>
+                  <div class="comment-text">
+                     Не согласен, лучше спаны.
+                     <div class="comment-date">17.09.2013</div>
+                  </div>
+                  <a href="#reply" title="Ответить" class="comment-reply"></a>
+               </div>
+            </div>
+
+            <div class="post">
+               <div class="post-title">Интенсив: программа</div>
+               <div class="post-date">13.09</div>
+               <div class="post-type"></div>
+               <div class="post-author">
+                  Автор: <a href="#">HTML Academy</a>
+               </div>
+               <div class="post-stats">
+                  <div class="icon icon-tags"></div>
+                  <a href="#">интенсив</a>,
+                  <a href="#">программа</a>
+               </div>
+               <div class="post-stats">
+                  <div class="icon icon-comments"></div>
+                  <a href="#">5</a>
+               </div>
+               <div class="post-text">Работа над интенсивом идёт полным ходом. Мы нашли крутых людей в команду и решили
+                  ещё кучу задач. Но сегодня я подробнее расскажу о работе над программой интенсива.</div>
+            </div>
+         </div>
+      </div>
+   </section>
+</body>
+
+</html>
